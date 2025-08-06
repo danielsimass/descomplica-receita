@@ -1,0 +1,168 @@
+id,name,formula,dosage,icon,accountable
+2,Amoxicilina,Cápsula,500 mg,capsule,true
+3,"Clindamicina, cloridrato de",Cápsula,300 mg,capsule,true
+4,Fluconazol,Cápsula,150 mg,capsule,true
+5,Itraconazol,Cápsula,100 mg,capsule,true
+6,Omeprazol,Cápsula,20 mg,capsule,true
+7,"Fluoxetina, cloridrato",Cápsula,20 mg,capsule,true
+8,Isoflavona de soja,Cápsula,50 mg a 120 mg de isoflavonas,capsule,true
+9,Dipirona Sódica,Comprimido,500 mg,compressed,true
+10,Paracetamol,Comprimido,500 mg,compressed,true
+11,"Ciprofloxacino, cloridrato",Comprimido,500 mg,compressed,true
+12,Claritromicina,Comprimido,250 mg,compressed,true
+13,Cloranfenicol,Comprimido,250 mg,compressed,true
+14,Nitrofurantoína,Comprimido,100 mg,compressed,true
+15,Sulfametoxazol + Trimetoprima,Comprimido,400 mg + 80 mg,compressed,true
+16,Aciclovir,Comprimido,200 mg,compressed,true
+17,Alopurinol,Comprimido,100 mg,compressed,true
+18,Alopurinol,Comprimido,300 mg,compressed,true
+19,Dexclorfeniramina,Comprimido,2 mg,compressed,true
+20,Loratadina,Comprimido,10 mg,compressed,true
+21,"Prometazina, cloridrato de",Comprimido,25 mg,compressed,true
+22,Ibuprofeno,Comprimido,300 mg,compressed,true
+23,Ibuprofeno,Comprimido,600 mg,compressed,true
+24,Ivermectina,Comprimido,6 mg,compressed,true
+25,Dexametasona,Comprimido,4 mg,compressed,true
+26,Prednisona,Comprimido,20 mg,compressed,true
+27,Prednisona,Comprimido,5 mg,compressed,true
+28,Sinvastatina,Comprimido,20 mg,compressed,true
+29,Sinvastatina,Comprimido,40 mg,compressed,true
+30,Levotiroxina de sódio,Comprimido,100 mcg,compressed,true
+31,Levotiroxina de sódio,Comprimido,50 mcg,compressed,true
+32,Levotiroxina de sódio,Comprimido,25 mcg,compressed,true
+33,Glicazida,Comprimido,80 mg,compressed,true
+34,Gibenclamida,Comprimido,5 mg,compressed,true
+35,"Metformina, cloridrato",Comprimido,500 mg,compressed,true
+36,"Metformina, cloridrato",Comprimido,850 mg,compressed,true
+37,Ácido acetilsalicílico,Comprimido,100 mg,compressed,true
+38,Amiodarona,Comprimido,200 mg,compressed,true
+39,"Anlodipino, besilato",Comprimido,10 mg,compressed,true
+40,"Anlodipino, besilato",Comprimido,5 mg,compressed,true
+41,Atenolol,Comprimido,50 mg,compressed,true
+42,Atenolol,Comprimido,100 mg,compressed,true
+43,Captopril,Comprimido,25 mg,compressed,true
+44,Carvedilol,Comprimido,"3,125 mg",compressed,true
+45,Carvedilol,Comprimido,"6,25 mg",compressed,true
+46,Carvedilol,Comprimido,"12,5 mg",compressed,true
+47,Carvedilol,Comprimido,25 mg,compressed,true
+48,"Clopidogrel, bis sulfato",Comprimido,75 mg,compressed,true
+49,Digoxina,Comprimido,"0,25 mg",compressed,true
+50,"Enalapril, maleato",Comprimido,5 mg,compressed,true
+51,"Enalapril, maleato",Comprimido,10 mg,compressed,true
+52,"Enalapril, maleato",Comprimido,20 mg,compressed,true
+53,Espironolactona,Comprimido,25 mg,compressed,true
+54,Furosemida,Comprimido,40 mg,compressed,true
+55,Hidralazina,Comprimido,25 mg,compressed,true
+56,Hidroclorotiazida,Comprimido,25 mg,compressed,true
+57,"Isossorbida, mononitrato",Comprimido,20 mg,compressed,true
+58,"Isossorbida, mononitrato",Comprimido,40 mg,compressed,true
+59,Losartana potássica,Comprimido,50 mg,compressed,true
+60,Metildopa,Comprimido,250 mg,compressed,true
+61,"Metoprolol, Succinato",Comprimido,25 mg,compressed,true
+62,"Metoprolol, Succinato",Comprimido,50 mg,compressed,true
+63,"Metoprolol, Tartarato",Comprimido,100 mg,compressed,true
+64,Nifedipino,Comprimido,10 mg,compressed,true
+65,"Propranolol, cloridrato",Comprimido,40 mg,compressed,true
+66,"Verapamil, cloridrato",Comprimido,80 mg,compressed,true
+67,"Metoclopramida, cloridrato de",Comprimido,10 mg,compressed,true
+68,Ácido Valpróico,Comprimido,250 mg,compressed,true
+69,Amitriptilina,Comprimido,25 mg,compressed,true
+70,"Biperideno, cloridrato",Comprimido,2 mg,compressed,true
+71,Carbamazepina,Comprimido,200 mg,compressed,true
+72,"Clomipramina, cloridrato de",Comprimido,25 mg,compressed,true
+73,"Clorpromazina, cloridrato",Comprimido,100 mg,compressed,true
+74,"Clorpromazina, cloridrato",Comprimido,25 mg,compressed,true
+75,Diazepam,Comprimido,5 mg,compressed,true
+76,Fenobarbital,Comprimido,100 mg,compressed,true
+77,Haloperidol,Comprimido,5 mg,compressed,true
+78,"Lítio, carbonato",Comprimido,300 mg,compressed,true
+79,"Nortriptilina, cloridrato",Comprimido,25 mg,compressed,true
+80,Levodopa + Carbidopa,Comprimido,250/25 mg,compressed,true
+81,Levodopa + Benserazida,Comprimido,200/50 mg,compressed,true
+82,Levodopa + Benserazida,Comprimido,100/25 mg,compressed,true
+83,Estrogênio conjugado,Comprimido,"0,3 mg",compressed,true
+84,Levonorgestrel,Comprimido,"1,5 mg",compressed,true
+85,Levonorgestrel + etinilestradiol,Comprimido,"0,15 mg + 0,03 mg",compressed,true
+86,Noretisterona,Comprimido,"0,35 mg",compressed,true
+87,"Alendronato, sódico",Comprimido,70 mg,compressed,true
+88,Cálcio carbonato,Comprimido,500 mg,compressed,true
+89,"Piridoxina, Cloridrato de",Comprimido,40 mg,compressed,true
+90,Polivitamínico + poliminerais,Comprimido,-,compressed,true
+91,"Tiamina, cloridrato de",Comprimido,300 mg,compressed,true
+92,Garra-do-diabo (Harpagophytum procumbens),Comprimido,30 mg a 100 mg de harpagosídeo,compressed,true
+93,Mesilato de Doxazosina,Comprimido,2 mg,compressed,true
+94,Mesilato de Doxazosina,Comprimido,4 mg,compressed,true
+95,Finasterida,Comprimido,5 mg,compressed,true
+96,Gliclazida,Comprimido de liberação prolongada,30 mg,compressed,true
+97,Glicazida,Comprimido de liberação prolongada,60 mg,compressed,true
+98,Albendazol,Comprimido mastigável,400 mg,compressed,true
+99,Hidróxido de Alumínio,Comprimido mastigável,300 mg,compressed,true
+100,Ondansentrona,Comprimido orodispersível,8 mg,compressed,true
+101,Amoxicilina + Clavulanato de potássio,Comprimido revestido,500 mg + 125 mg,compressed,true
+102,Azitromicina diidratada,Comprimido revestido,500 mg,compressed,true
+103,Cefalexina,Comprimido revestido,500 mg,compressed,true
+104,"Eritromicina, estolato",Comprimido revestido,500 mg,compressed,true
+105,Metronidazol,Comprimido revestido,250 mg,compressed,true
+106,"Ranitidina, cloridrato",Comprimido revestido,150 mg,compressed,true
+107,Ácido fólico,Comprimido revestido,5 mg,compressed,true
+108,Sulfato Ferroso,Comprimido revestido,40 mg,compressed,true
+109,"Isossorbida, dinitrato",Comprimido sublingual,5 mg,compressed,true
+110,Carbonato de cálcio + vitamina D,Comprimidos revestidos,500 mg/400 UI,compressed,true
+111,Aciclovir,Creme,50 mg/g (bisnaga 10g),cream,false
+112,"Miconazol, nitrato de",Creme,2%,cream,false
+113,Acetato de hidrocortisona,Creme,10 mg/g (1%),cream,false
+114,Dexametasona,Creme,1 mg/g,cream,false
+115,"Miconazol, nitrato de",Creme vaginal,2%,cream,false
+116,Estriol,Creme vaginal,1 mg/g,cream,false
+117,Estrogênio conjugado,Creme vaginal,"0,625 mg/g",cream,false
+122,"Miconazol, nitrato de",Gel oral,2%,cream,false
+124,"Miconazol, nitrato de",Loção,2%,cream,false
+125,Permetrina,Loção,1%,cream,false
+126,Permetrina,Loção,5%,cream,false
+127,Pasta d’água,Pasta,-,cream,false
+133,Dexametasona,Pomada oftálmica,0.10%,cream,false
+136,Sulfato de gentamicina,gota,5 mg/ml,drops,true
+137,"Timolol, Maleato",gota,0.50%,drops,true
+146,Dipirona Sódica,gota,500 mg/ml,drops,true
+147,Paracetamol,gota,200 mg/ml,drops,true
+148,"Metoclopramida, cloridrato de",gota,4 mg/ml,drops,true
+149,Fenobarbital,gota,40 mg/ml (20ml),drops,true
+151,Dexametasona,gota,0.10%,drops,true
+118,Dexametasona,Elixir,"0,1 mg/ml",elixir,false
+120,"Beclometasona, dipropionato",Frasco,50 mcg,elixir,false
+121,"Beclometasona, dipropionato",Frasco,250 mcg,elixir,false
+138,Dexclorfeniramina,Solução oral,"0,4 mg/ml",elixir,false
+139,"Prednisolona, fosfato sódico de",Solução oral,1 mg/ml,elixir,false
+140,"Prednisolona, fosfato sódico de",Solução oral,3 mg/ml,elixir,false
+141,Clonazepam,Solução oral,"2,5 mg/ml",elixir,false
+142,"Clorpromazina, cloridrato",Solução oral,40 mg/ml,elixir,false
+143,Haloperidol,Solução oral,2 mg/ml,elixir,false
+144,Ácido Fólico,Solução oral,"0,2 mg/ml",elixir,false
+145,Guaco - Mikania glomerata,Solução oral,"0,5 mg a 5 mg de Cumarina",elixir,false
+152,Amoxicilina + Clavulanato de potássio,Suspensão oral,"50 mg + 12,5 mg/ml",elixir,false
+153,Benzoilmetronidazol,Suspensão oral,40 mg/ml,elixir,false
+154,Sulfametoxazol + Trimetoprima,Suspensão oral,40 mg + 8 mg/ml,elixir,false
+155,Nistatina,Suspensão oral,100.000 UI/ml,elixir,false
+156,Ibuprofeno,Suspensão oral,50 mg/ml (30ml),elixir,false
+157,Albendazol,Suspensão oral,40 mg/ml,elixir,false
+158,Hidróxido de Alumínio,Suspensão oral,"61,5 mg/ml",elixir,false
+159,Carbamazepina,Suspensão oral,20 mg/ml (100ml),elixir,false
+160,Fenitoína,Suspensão oral,25 mg/ml,elixir,false
+164,Loratadina,Xarope,1 mg/ml,elixir,false
+165,Lactulose,Xarope,667 mg/ml,elixir,false
+166,Ácido Valpróico,Xarope,50 mg/ml (100ml),elixir,false
+167,Sulfato Ferroso,Xarope,25 mg/ml,elixir,false
+135,Fisiológica nasal (cloreto de sódio),Solução nasal,-,inhaler,false
+161,Budesonida,Suspensão para inalação nasal,32 mcg,inhaler,false
+162,Budesonida,Suspensão para inalação nasal,50 mcg,inhaler,false
+134,"Ipratrópio, brometo de",Solução inalante,"0,25 mg/ml",pump,false
+128,Sais para Reidratação oral,Pó para solução oral,"27,9 g/envelope",sachet,false
+129,Amoxicilina,Pó para suspensão oral,50 mg/ml,sachet,false
+130,Azitromicina,Pó para suspensão oral,40 mg/ml,sachet,false
+131,Cefalexina,Pó para suspensão oral,50 mg/ml,sachet,false
+132,"Eritromicina, estolato",Pó para suspensão oral,50 mg/ml,sachet,false
+163,Cetoconazol,Xampu,20 mg/g (2%),shampoo,false
+119,Óleo mineral,Colher,-,spoon,true
+1,"Salbutamol, sulfato",Aerossol,100 mcg (200 doses),spray,false
+150,Glicerol,Supositório,72 mg,suppository,false
+123,Metronidazol,Gel vaginal,100 mg/g (bisnaga 50g),intimus,false
