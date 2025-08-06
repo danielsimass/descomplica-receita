@@ -1,69 +1,94 @@
-# React + TypeScript + Vite
+# Receita Médica Visual
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um sistema desenvolvido para gerar receitas médicas de forma visual, utilizando imagens para ajudar pessoas analfabetas a entenderem como tomar sua medicação. O projeto foi construído utilizando o framework **Vite**.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Interface visual para criar receitas médicas.
+- Uso de imagens para representar medicamentos e instruções de uso.
+- Foco na acessibilidade para pessoas com dificuldades de leitura.
 
-## Expanding the ESLint configuration
+## Tecnologias Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Vite**: Ferramenta de build rápida para desenvolvimento web.
+- **React** (ou outra biblioteca, se aplicável): Para construção da interface do usuário.
+- **CSS/SCSS**: Para estilização da aplicação.
+- Outras dependências relevantes (adicione aqui, se necessário).
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Como Executar o Projeto
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+Siga os passos abaixo para rodar o projeto localmente:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+1. Clone este repositório:
+
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   ```
+
+2. Acesse o diretório do projeto:
+
+   ```bash
+   cd nome-do-repositorio
+   ```
+
+3. Instale as dependências:
+
+   ```bash
+   npm install
+   ```
+
+4. Inicie o servidor de desenvolvimento:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Abra o navegador e acesse:
+   ```
+   http://localhost:5173
+   ```
+
+## Estrutura do Projeto
+
+```plaintext
+src/
+├── assets/         # Imagens e outros arquivos estáticos
+├── components/     # Componentes reutilizáveis
+├── pages/          # Páginas principais da aplicação
+├── styles/         # Arquivos de estilo (CSS/SCSS)
+├── App.jsx         # Componente principal
+└── main.jsx        # Ponto de entrada do projeto
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Contribuindo
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+1. Faça um fork do projeto.
+2. Crie uma branch para sua feature:
+   ```bash
+   git checkout -b minha-feature
+   ```
+3. Faça as alterações necessárias e commit:
+   ```bash
+   git commit -m "Descrição da minha feature"
+   ```
+4. Envie para o repositório remoto:
+   ```bash
+   git push origin minha-feature
+   ```
+5. Abra um pull request.
+
+## Licença
+
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo `LICENSE` para mais detalhes.
+
+---
+
+### Contato
+
+Se tiver dúvidas ou sugestões, entre em contato:
+
+- **Email**: contato@danielsimas.com.br
+- **LinkedIn**: [Daniel simas](https://linkedin.com/in/danielsimass)
+- **GitHub**: [danielsimass](https://github.com/danielsimass)
