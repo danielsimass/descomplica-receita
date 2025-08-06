@@ -1,4 +1,4 @@
-# Receita Médica Visual
+# Receita Médica Visual - Descomplica Receita
 
 Este é um sistema desenvolvido para gerar receitas médicas de forma visual, utilizando imagens para ajudar pessoas analfabetas a entenderem como tomar sua medicação. O projeto foi construído utilizando o framework **Vite**.
 
