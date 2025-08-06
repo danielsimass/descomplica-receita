@@ -252,9 +252,7 @@ export const gerarPDF = async ({
                         (item) => `
                       <div class="medicamento-linha">
                         <div class="medicamento-info">
-                          <div class="medicamento-nome">${
-                            item?.medicine?.name
-                          }</div>
+                          <div class="medicamento-nome">${item?.medicine?.name.toUpperCase()}</div>
                           <div class="medicamento-dosagem">${
                             item?.medicine?.dosage
                           }</div>
