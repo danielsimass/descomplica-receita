@@ -11,9 +11,8 @@ Este é um sistema desenvolvido para gerar receitas médicas de forma visual, ut
 ## Tecnologias Utilizadas
 
 - **Vite**: Ferramenta de build rápida para desenvolvimento web.
-- **React** (ou outra biblioteca, se aplicável): Para construção da interface do usuário.
-- **CSS/SCSS**: Para estilização da aplicação.
-- Outras dependências relevantes (adicione aqui, se necessário).
+- **React**: Para construção da interface do usuário.
+- **Shadcn**: Para estilização da aplicação.
 
 ## Como Executar o Projeto
 
@@ -22,13 +21,13 @@ Siga os passos abaixo para rodar o projeto localmente:
 1. Clone este repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/danielsimass/descomplica-receita.git
    ```
 
 2. Acesse o diretório do projeto:
 
    ```bash
-   cd nome-do-repositorio
+   cd descomplica-receita
    ```
 
 3. Instale as dependências:
@@ -47,6 +46,12 @@ Siga os passos abaixo para rodar o projeto localmente:
    ```
    http://localhost:5173
    ```
+
+## Link de Produção
+
+Acesse a versão de produção do projeto no seguinte link:
+
+[Descomplica Receita - Produção](https://descomplica-receita.example.com)
 
 ## Estrutura do Projeto
 
