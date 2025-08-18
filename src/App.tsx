@@ -19,13 +19,13 @@ import {
 import { Textarea } from "@/components/ui/textarea";
 import { Clock, Download, Pill, Plus, Search, Trash2 } from "lucide-react";
 import { useEffect, useState } from "react";
+import AddMedicineModal from "./components/Modal";
 import { timings } from "./constants/timings.constant";
 import type { IMedicine } from "./interfaces/medicine.interface";
 import type { IPatientData } from "./interfaces/patient.interface";
 import type { IPrescription } from "./interfaces/prescription.interface";
 import { getMedicines } from "./lib/medicine.service";
 import { gerarPDF } from "./lib/pdf-generator";
-
 export default function ReceitaVisual() {
   const [search, setSearch] = useState("");
   const [prescriptionItems, setPrescriptionItems] = useState<IPrescription[]>(
@@ -174,13 +174,23 @@ export default function ReceitaVisual() {
 
             <Card>
               <CardHeader>
-                <CardTitle className="flex items-center gap-2">
-                  <Search className="h-5 w-5" />
-                  Buscar Medicamentos
-                </CardTitle>
-                <CardDescription>
-                  Busque por nome do medicamento ou princípio ativo
-                </CardDescription>
+                <div className="flex items-center justify-between">
+                  <div>
+                    <CardTitle className="flex items-center gap-2">
+                      <Search className="h-5 w-5" />
+                      Buscar Medicamentos
+                    </CardTitle>
+                    <CardDescription>
+                      Busque por nome do medicamento ou princípio ativo
+                    </CardDescription>
+                  </div>
+                  <AddMedicineModal
+                    onAddMedicine={(medicine: IMedicine) => {
+                      setMedicines((meds) => [...meds, medicine]);
+                    }}
+                    nextId={medicines.length + 1}
+                  />
+                </div>
               </CardHeader>
               <CardContent>
                 <div className="relative">
